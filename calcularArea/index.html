@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calcular Area</title>
+</head>
+<body>
+    <script src="sripts.js"></script>
+    <h1>Calcular Area</h1>
+
+<!--Selector para elegir figura-->
+    <label for="figura">Selecciona una figura:</label>
+<select id="figura">
+        <option value="cuadro">Cuadro</option>
+        <option value="rectangulo">Rectangulo</option>
+        <option value="triangulo">Triangulo</option>
+</select>
+<br>
+
+<!--Ingresar en primer lado-->
+    <label for="altura">Altura:</label>
+    <input type="number" id="altura">
+<br>
+
+<!--Ingresar el segundo lado-->
+    <label for="base">Base:</label>
+    <input type="number" id="base">
+<br>
+
+<!--Boton-->
+    <button onclick="calcularArea()">Calcular Area</button>
+    <p id="resultado"></p>
+</body>
+</html>
